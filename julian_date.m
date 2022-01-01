@@ -3,6 +3,7 @@
 %
 % Either let the script use actual (GMT)time or edit YY, MM, DD, hh, mm and ss
 % with your prefered date and time.
+% Emmanuel Lomba (CT7AFR)
 
 time_struct = gmtime(time());         
 %time_struct = localtime(time());   %uncomment this line for actual local time
