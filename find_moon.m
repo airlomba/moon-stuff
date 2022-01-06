@@ -19,6 +19,9 @@
 %   Alt - Altitude above horizon, in decimal degrees (negative = below horizon)
 %   Dist- Distance from Earth coordinates to Moon, in kilometers
 %
+% Dependencies:
+%   GNU Octave packages: mapping, financial 
+%
 
 function [Az, Alt, Dist] = find_moon (LAT, LON, YY, MM, DD, hh, mm, ss)
   UT = (hh + mm / 60 + ss/3600) / 24;
