@@ -1,4 +1,5 @@
-% Function to calculate the position of the Moon
+% Function to calculate the position of the Moon (Error < 2 arc minute)
+% Emmanuel Lomba (CT7AFR)
 %
 % Sytnax:
 %   [Az, Alt, Dist] = find_moon (LAT, LON, YY, MM, DD, hh, mm, ss)
